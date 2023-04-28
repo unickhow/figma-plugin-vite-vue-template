@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue'
 import { ref } from 'vue'
 
 const count = ref(5)
@@ -15,6 +16,7 @@ function handleCancel () {
 <template>
   <div class="flex flex-col text-center max-w-[500px] mx-auto">
     <h2>Rectangle Creator</h2>
+    <HelloWorld msg="vite template for figma plugin!" />
     <p>Count: <input type="number" v-model.number="count"></p>
     <div class="flex justify-center gap-2">
       <button id="create" class="button" @click="handleCreate">Create</button>
