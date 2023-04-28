@@ -1,6 +1,6 @@
 {
-  "name": "figma-plugin-vite-vue-template",
-  "id": "000000000000000000",
+  "name": "{{YOUR_FIGMA_PLUGIN_NAME}}",
+  "id": "{{YOUR_FIGMA_PLUGIN_ID}}",
   "api": "1.0.0",
   "main": "code.js",
   "ui": "index.html",
