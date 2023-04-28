@@ -6,6 +6,9 @@ dependencies:
     version: 3.2.47
 
 devDependencies:
+  '@figma/plugin-typings':
+    specifier: ^1.63.0
+    version: 1.63.0
   '@vitejs/plugin-vue':
     specifier: ^4.1.0
     version: 4.1.0(vite@4.3.2)(vue@3.2.47)
@@ -241,6 +244,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@figma/plugin-typings@1.63.0:
+    resolution: {integrity: sha512-bVayE0SHdBJL8VFf2CvfLIC9aW4f+6KBBNuBQ67Q5Vy0RI5MCymEppWBkJoSFfUu3XQskb6A1UMVDI7hurd0LA==}
+    dev: true
 
   /@vitejs/plugin-vue@4.1.0(vite@4.3.2)(vue@3.2.47):
     resolution: {integrity: sha512-++9JOAFdcXI3lyer9UKUV4rfoQ3T1RN8yDqoCLar86s0xQct5yblxAE+yWgRnU5/0FOlVCpTZpYSBV/bGWrSrQ==}
