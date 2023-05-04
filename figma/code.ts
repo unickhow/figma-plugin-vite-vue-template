@@ -1,3 +1,4 @@
+/// <reference types="@figma/plugin-typings" />
 // This plugin will open a window to prompt the user to enter a number, and
 // it will then create that many rectangles on the screen.
 
